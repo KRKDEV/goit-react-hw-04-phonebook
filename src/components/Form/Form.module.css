@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: 'Segoe UI';
+  outline: none;
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+input:focus {
+  border: 1px solid rgb(255, 69, 0);
+}
+.form__btn {
+  padding: 10px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  background-color: rgba(255, 69, 0, 0.5);
+  border: 1px solid rgb(255, 69, 0);
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.form__btn:hover {
+  background-color: rgba(255, 69, 0, 1);
+}
